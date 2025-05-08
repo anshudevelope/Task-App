@@ -4,6 +4,8 @@ import { MdPendingActions } from "react-icons/md";
 import { FaCode, FaSpinner, FaUsers } from "react-icons/fa";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { BsThreeDotsVertical } from "react-icons/bs";
+import { TbProgress } from "react-icons/tb";
+
 
 
 
@@ -24,7 +26,7 @@ const Dashboard = () => {
                 </div>
 
                 <div className="bg-blue-800 text-white font-medium px-4 py-2 rounded flex items-center justify-center gap-2 w-full sm:w-[48%] lg:w-[23%]">
-                    <FaSpinner className="text-lg animate-spin" />
+                    <TbProgress className="text-lg" />
                     <span>In Process</span>
                 </div>
 
