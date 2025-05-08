@@ -2,7 +2,7 @@ export const Apidata = (email, password) => {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         const User = {
-          name: "John Doe",
+          name: "Anshu",
           email: "test@example.com",
           password: "123456"
         };

@@ -18,6 +18,25 @@ const LoginForm = ({ onLoginSuccess }) => {
   //   setPassword('')
   // }
 
+  // async function login(){
+  //   console.warn("data", email, password);
+  //   let item = {email, password}
+
+  //   let result = await fetch('https://jsonplaceholder.typicode.com/users' ,{
+  //   method: 'POST',
+  //   headers: {
+  //     "Content-type": "application/json",
+  //     "Accept": "application/json"
+  //   },
+
+  //   body: JSON.stringify(item)
+  // });
+
+  // result = await result.json();
+  // localStorage.setItem('user', JSON.stringify(result));
+    
+  // }
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
